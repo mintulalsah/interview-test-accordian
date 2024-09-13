@@ -1,0 +1,69 @@
+
+.mainLayout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    padding: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  
+  .employeeList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    width: 80%;
+    margin: auto; 
+  }
+  .employee_item {
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid #0680B7;
+    margin-bottom: 10px;
+    background-color: #0680B7;
+    position: relative;
+  }
+  
+  .employee_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .toggle_btn {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .employee_details {
+    display: flex;
+    background-color: #B2EBF2;
+    color: #444444;
+    padding: 30px;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .employee_image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .employee_body h4 {
+    font-size: 1.5rem;
+  }
+  
+  .employee_body p {
+    color: #555;
+    line-height: 1.5;
+  }
+  
